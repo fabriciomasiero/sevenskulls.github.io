@@ -1587,6 +1587,9 @@ a:hover.back-to-top {
     transform: scale(1.01);
     transition: 0.2s ease;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: scale-down
 }
 
 .mfp-content .img-fluid {
